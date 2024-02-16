@@ -1,0 +1,29 @@
+{
+    "donnees_serre": [
+        {
+            "capteurs": {
+                "HumiditeInterieure": 65,
+                "TemperatureInterieure": 25.5,
+                "HumiditeSol1": 40,
+                "HumiditeSol2": 50,
+                "HumiditeSol3": 60,
+                "TemperatureExterieure": 22.3,
+                "ConsomationElectrique": 120,
+                "ConsomationEauPluie": 15,
+                "ConsomationEauCourante": 30,
+                "NiveauEau": 75
+            }
+        },
+        {
+            "actionneurs": {
+                "PompeBac": true,
+                "VerinFenetre": false,
+                "VanneReseauEau": true,
+                "VanneReseauPluie": true,
+                "Chauffage1": false,
+                "Brumisation": false,
+                "HumidifierSerre": true
+            }
+        }
+    ]
+}

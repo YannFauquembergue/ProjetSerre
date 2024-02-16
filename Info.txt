@@ -1,0 +1,4 @@
+IP BDD : 192.168.64.189
+IP WEB : 192.168.65.47
+
+Partage Samba : root root (sinon debian debian ou debian root ou root debian)
