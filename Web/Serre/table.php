@@ -126,28 +126,28 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand smothscroll" href="#Acceuil"><b>SERRE</b></a>
+        <a class="navbar-brand smothscroll" href="#Accueil"><b>SERRE</b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="accueil.php">Acceuil</a></li>
+          <li><a href="accueil.php">Accueil</a></li>
           <li class="active"><a href="table.php">Tableau</a></li>
           <li><a href="graph.php">Graphique</a></li>
           <!-- <li><a href="modification.php">Compte</a></li> -->
           <li><a href="Admin.php">Admin</a></li>
-          <li><a href="fonctions/deconnexion.php">Deconnexion</a></li>
+          <li><a href="fonctions/deconnexion.php">Déconnexion</a></li>
         </ul>
       </div>
     </div>
   </div>
 
-  <section id="Acceuil">
+  <section id="Accueil">
     <div id="headerwrap">
 
       <div class="container">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Informations de Connexion WebSocket</h5>
+            <h5 class="card-title">Informations de connexion WebSocket</h5>
             <p class="card-text">
             <h1 id="adresses">IP Production : </h1><code>wss://serre.tspro.fr/ws</code>
             <!-- <span id="paddingleftspan"></span> -->
@@ -178,12 +178,12 @@
           <div class="col-xs-6 col-md-3">
             <h6>Catégories</h6>
             <ul class="footer-links">
-              <li><a href="#">Acceuil</a></li>
+              <li><a href="#">Accueil</a></li>
               <li><a href="#">Tableau</a></li>
               <li><a href="#">Graphique</a></li>
               <li><a href="#">Compte</a></li>
               <li><a href="#">Admin</a></li>
-              <li><a href="#">Deconnexion</a></li>
+              <li><a href="#">Déconnexion</a></li>
             </ul>
           </div>
 
@@ -194,7 +194,7 @@
               <li><a href="#">Nous contacter</a></li>
               <li><a href="#">Contribuer</a></li>
               <li><a href="#">Conditions générales d'utilisation</a></li>
-              <li><a href="#"">Politique de confidentialité</a></li>
+              <li><a href="#">Politique de confidentialité</a></li>
               </ul>
             </div>
           </div>

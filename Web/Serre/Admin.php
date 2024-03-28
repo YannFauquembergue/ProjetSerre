@@ -37,21 +37,21 @@ include "classes/User.php"; ?>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand smothscroll" href="#Acceuil"><b>SERRE</b></a>
+        <a class="navbar-brand smothscroll" href="#Accueil"><b>SERRE</b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="accueil.php">Acceuil</a></li>
+          <li><a href="accueil.php">Accueil</a></li>
           <li><a href="table.php">Tableau</a></li>
           <li><a href="graph.php">Graphique</a></li>
           <li><a href="modification.php">Compte</a></li>
           <li class="active"><a href="Admin.php">Admin</a></li>
-          <li><a href="fonctions/deconnexion.php">Deconnexion</a></li>
+          <li><a href="fonctions/deconnexion.php">Déconnexion</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <section id="Acceuil">
+  <section id="Accueil">
     <div id="headerwrap">
       <div class="container">
         <div class="row centered">

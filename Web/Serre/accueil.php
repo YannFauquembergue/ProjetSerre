@@ -35,22 +35,22 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand smothscroll" href="#Acceuil"><b>SERRE</b></a>
+        <a class="navbar-brand smothscroll" href="#Accueil"><b>SERRE</b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="accueil.php">Acceuil</a></li>
+          <li class="active"><a href="accueil.php">Accueil</a></li>
           <li><a href="table.php">Tableau</a></li>
           <li><a href="graph.php">Graphique</a></li>
           <!-- <li><a href="modification.php">Compte</a></li> -->
           <li><a href="Admin.php">Admin</a></li>
-          <lI><a href="fonctions/deconnexion.php">Deconnexion</a></li>
+          <lI><a href="fonctions/deconnexion.php">Déconnexion</a></li>
         </ul>
       </div>
     </div>
   </div>
 
-  <section id="Acceuil">
+  <section id="Accueil">
     <!--<div id="headerwrap">
       <div class="container">
         <div class="row centered">
@@ -71,7 +71,7 @@
 
     <section id="intro">
       <div class="info">
-        <h1>Serre Automatisée</h1>
+        <h1>Serre automatisée</h1>
         <p>
           Explorez l'agriculture du futur avec notre serre automatisée. Cultivez intelligemment, économisez les ressources, maximisez les rendements. Bienvenue dans l'ère de l'agriculture innovante.
         </p>
@@ -119,9 +119,9 @@
       <div class="grid">
         <div class="card"><img class="card__img" src="https://corporate.walmart.com/content/dam/corporate/images/global-responsibility/sustainability/planet/nature/businessfornature-banner.png" alt="Snowy Mountains">
           <div class="card__content">
-            <h1 class="card__header">Responsable Technique</h1>
+            <h1 class="card__header">Responsable technique</h1>
             <div class="card__text-wrapper">
-              <p class="card__text">Sous la bienveillance du CP, le RT doit étudier et préparer la mise en place d’une solution PHP Orienté
+              <p class="card__text">Sous la bienveillance du chef de projet, le responsable technique doit étudier et préparer la mise en place d’une solution PHP Orientée
                 objet. Il doit mettre en place l’architecture du projet (serveur / BDD / paramétrage) </p>
             </div>
             <!-- <button class="card__btn">Explore <span>&rarr;</span></button> -->
@@ -129,20 +129,20 @@
         </div>
         <div class="card"><img class="card__img" src="https://uicn.fr/wp-content/uploads/2023/03/couverture-_g.-karczewski-pnc_-min-scaled.jpeg" alt="Desert">
           <div class="card__content">
-            <h1 class="card__header">Chef d'équipe</h1>
+            <h1 class="card__header">Chef de projet</h1>
             <div class="card__text-wrapper">
-              <p class="card__text">Suivi du projet avec une réunion régulièrement en compagnie des autres CP et de l’Enseignant. Rédaction
-                du cahier des charges avec les recommandations techniques du RT</p>
+              <p class="card__text">Suivi du projet avec une réunion régulièrement en compagnie des autres chef de projet et de l’enseignant. Rédaction
+                du cahier des charges avec les recommandations techniques du responsable technique</p>
             </div>
             <!-- <button class="card__btn">Explore <span>&rarr;</span></button> -->
           </div>
         </div>
         <div class="card"><img class="card__img" src="https://images.squarespace-cdn.com/content/v1/5feb6d2cab06677bba637eba/d72ddeeb-d2bd-4779-99be-8bbd6845fbc8/LAM+images+%284%29.jpg" alt="Canyons">
           <div class="card__content">
-            <h1 class="card__header">Developeur</h1>
+            <h1 class="card__header">Développeur</h1>
             <div class="card__text-wrapper">
-              <p class="card__text">Développer le projet en se basant uniquement sur le cahier des charges en cours de validations par le CP.
-                Il commencera donc à développer le site avecses connaissances puis avec l’aide du RT.</p>
+              <p class="card__text">Développer le projet en se basant uniquement sur le cahier des charges en cours de validations par le chef de projet.
+                Il commencera donc à développer le site avec ses connaissances, puis avec l’aide du responsable technique.</p>
             </div>
             <!-- <button class="card__btn">Explore <span>&rarr;</span></button> -->
           </div>
@@ -177,12 +177,12 @@
             <div class="col-xs-6 col-md-3">
               <h6>Catégories</h6>
               <ul class="footer-links">
-                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Accueil</a></li>
                 <li><a href="#">Tableau</a></li>
                 <li><a href="#">Graphique</a></li>
                 <li><a href="#">Compte</a></li>
                 <li><a href="#">Admin</a></li>
-                <li><a href="#">Deconnexion</a></li>
+                <li><a href="#">Déconnexion</a></li>
               </ul>
             </div>
 
@@ -193,7 +193,7 @@
                 <li><a href="#">Nous contacter</a></li>
                 <li><a href="#">Contribuer</a></li>
                 <li><a href="#">Conditions générales d'utilisation</a></li>
-                <li><a href="#"">Politique de confidentialité</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
               </ul>
             </div>
           </div>

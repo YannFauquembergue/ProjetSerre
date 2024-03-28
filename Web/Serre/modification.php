@@ -37,21 +37,21 @@ include "classes/User.php"; ?>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand smothscroll" href="#Acceuil"><b></b></a>
+        <a class="navbar-brand smothscroll" href="#Accueil"><b></b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="accueil.php">Acceuil</a></li>
+          <li><a href="accueil.php">Accueil</a></li>
           <li><a href="table.php">Tableau</a></li>
           <li><a href="graph.php">Graphique</a></li>
           <li class="active"><a href="modification.php">Compte</a></li>
           <li><a href="Admin.php">Admin</a></li>
-          <li><a href="fonctions/deconnexion.php">Deconnexion</a></li>
+          <li><a href="fonctions/deconnexion.php">Déconnexion</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <section id="Acceuil">
+  <section id="Accueil">
     <div id="headerwrap">
       <div class="container">
         <div class="row centered">
@@ -64,11 +64,11 @@ include "classes/User.php"; ?>
             };
 
             socket.onerror = function(error) {
-              console.error('WebSocket Error: ', error);
+              console.error('WebSocket error: ', error);
             };
 
             socket.onclose = function(event) {
-              console.log('WebSocket Closed with code: ', event.code);
+              console.log('WebSocket closed with code: ', event.code);
             };
 
 
@@ -82,7 +82,7 @@ include "classes/User.php"; ?>
             var bouton = document.createElement("button");
 
             // Ajouter du texte au bouton
-            bouton.innerHTML = "Ouverture Fenêtre";
+            bouton.innerHTML = "Ouverture fenêtre";
 
             // Ajouter une fonctionnalité au bouton
             bouton.onclick = function() {
@@ -93,18 +93,18 @@ include "classes/User.php"; ?>
             document.body.appendChild(bouton);
             
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Fermeture Fenêtre";
+            bouton.innerHTML = "Fermeture fenêtre";
             bouton.onclick = function() {
               const message = { data: '1' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
-              alert("La fenêtre est Fermé !");
+              alert("La fenêtre est fermé !");
             };
             document.body.appendChild(bouton);
 
             //Ouvrir Arrosage 
 
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Ouverture Arrosage";
+            bouton.innerHTML = "Ouverture arrosage";
             bouton.onclick = function() {
               const message = { data: '2' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
@@ -113,18 +113,18 @@ include "classes/User.php"; ?>
             document.body.appendChild(bouton);
 
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Fermeture Arrosage";
+            bouton.innerHTML = "Fermeture arrosage";
             bouton.onclick = function() {
               const message = { data: '3' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
-              alert("L'arrosage est désactivé  !");
+              alert("L'arrosage est désactivé !");
             };
             document.body.appendChild(bouton);
 
             //Allumer Chauffage 
             
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Allumer Chauffage";
+            bouton.innerHTML = "Allumer chauffage";
             bouton.onclick = function() {
               const message = { data: '4' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
@@ -133,31 +133,31 @@ include "classes/User.php"; ?>
             document.body.appendChild(bouton);
 
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Eteindre Chauffage";
+            bouton.innerHTML = "Eteindre chauffage";
             bouton.onclick = function() {
               const message = { data: '5' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
-              alert("Le Chauffage est eteint !");
+              alert("Le chauffage est éteint !");
             };
             document.body.appendChild(bouton);
 
             //Activer Brumisation 
 
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Activer Brumisation ";
+            bouton.innerHTML = "Activer brumisation ";
             bouton.onclick = function() {
               const message = { data: '6' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
-              alert("La Brumisation est activé !");
+              alert("La brumisation est activé !");
             };
             document.body.appendChild(bouton);
 
             var bouton = document.createElement("button");
-            bouton.innerHTML = "Désactiver Brumisation ";
+            bouton.innerHTML = "Désactiver brumisation ";
             bouton.onclick = function() {
               const message = { data: '7' }; // Mettre à jour la variable message.data
               socket.send(message.data); // Envoi des données au serveur
-              alert("La Brumisation est désactivé !");
+              alert("La brumisation est désactivé !");
             };
             document.body.appendChild(bouton);
   
